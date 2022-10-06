@@ -26,4 +26,3 @@ test = do
   log $ show $ null $ (5 : 23 : 56 : 47 : Nil)
   log $ show $ snoc (5 : 23 : 56 : 47 : Nil) 963
   log $ show $ length (5 : 23 : 56 : 47 : 963 : Nil)
-
